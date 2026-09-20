@@ -1,4 +1,5 @@
 import Foundation
+import UIKit
 import Capacitor
 /**
  * Please read the Capacitor iOS Plugin Development Guide
@@ -9,7 +10,7 @@ public class FileOpenerPlugin: CAPPlugin, UIDocumentInteractionControllerDelegat
     public let identifier = "FileOpenerPlugin" 
     public let jsName = "FileOpener" 
     public let pluginMethods: [CAPPluginMethod] = [
-        CAPPluginMethod(name: "open", returnType: CAPPluginReturnPromise),
+        CAPPluginMethod(name: "open", returnType: .promise)
     ] 
 
     var documentInteractionController : UIDocumentInteractionController!
