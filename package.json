@@ -1,6 +1,6 @@
 {
   "name": "@capacitor-community/file-opener",
-  "version": "8.0.1",
+  "version": "9.0.0",
   "description": "Capacitor File Opener. The plugin is able to open a file given the mimeType and the file uri.",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -63,7 +63,7 @@
     "typescript": "^5.9.3"
   },
   "peerDependencies": {
-    "@capacitor/core": ">=8.0.0"
+    "@capacitor/core": ">=9.0.0"
   },
   "prettier": "@ionic/prettier-config",
   "eslintConfig": {
